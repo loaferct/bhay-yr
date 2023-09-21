@@ -50,6 +50,8 @@ int main()
                     fin>>roll_no;
                     fin.get();
                     getline(fin,faculty);
+                    fin.ignore();                /*the function skips to the next line if nt used we stay 
+                                                   on the same line and we only get 0 as output*/
 
                     cout<<"Name: "<<name<<endl;
                     cout<<"Roll_no: "<<roll_no<<endl;
